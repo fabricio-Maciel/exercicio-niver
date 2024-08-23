@@ -8,10 +8,24 @@
 
 body {
   font-family: Comfortaa, sans-serif;
+  color: #000;
 }
 
 .container {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+  padding: 32px;
+}
+
+.button {
+  padding: 12px;
+  background-color: #1c6d88;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: lighten($color: #1c6d88, $amount: 20);
+  }
 }
